@@ -1,0 +1,100 @@
+ 
+ body {
+    font-family: Open sans;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 176px 245px;
+    padding: 0;
+ }
+
+ * {
+    box-sizing: border-box;
+ }
+
+ .container {
+   max-width: 1110px;
+   margin: 0 auto;
+   padding-bottom: 120px;
+ }
+
+ .section{
+   padding-top: 120px;
+   flex-direction: column;
+   align-items: center;
+   
+ }
+
+ .header {
+   padding-top: 60px;
+ }
+.logo {
+   margin: 0;
+}
+ .image {
+    height: 465px;
+    border-radius: 70px;
+ }
+  
+ 
+ h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    width: 465px;
+    height: 204px;
+    margin: 0;
+ }
+h2 {
+   font-size: 40px;
+   text-align: center;
+   align-items: center;
+}
+
+.first {
+   display: flex;
+   gap: 34px;
+   align-items: center;
+}
+.first-image {
+   margin-left: 220px;
+}
+.first-wrap {
+  
+}
+p {
+   margin: 0;
+}
+ 
+ .intro {
+    font-style: normal;
+    line-height: 25px;
+    width: 423px;
+    height: 50px;
+   margin: 30px 0;
+ }
+
+ .button{ 
+    background: #FF6861;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    padding: 22px 70px;
+    font-weight: 700;
+    width: 221px;
+    text-align: center;
+    display: block;
+ }
+ 
+ .offer {
+    height: 383px;
+    align-items: center;
+ }
+
+ .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 82px;
+ } 
